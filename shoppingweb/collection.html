@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping-cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./collection.css">
+<script src="./index.js" ></script>
+<script src="collection.js"></script>
+</head>
+
+<body>
+    <div class="nav-head">
+        <nav class="nav-title">
+            <p><b>ONLINE SHOPPING-CART</b>
+            <p>
+        </nav>
+        <div class="nav-option">
+            <p class="navhome"><a href="./index.html">HOME</a></p>
+            <p class="navcollection"><a href="./collection.html">COLLECTION</a></p>
+            <p class="navcontact"><a href="./contact.html">CONTACT</a></p>
+        </div>
+        <div class="font-icon" onclick="opennav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!---------------sidenavbar------------------------->
+    <div class="side-navbar">
+        <p style="text-align: right" class="xmark">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-option">
+            <p class="navhome"><a href="./index.html">HOME</a></p>
+            <p class="navcollection"><a href="./collection.html">COLLECTION</a></p>
+            <p class="navcontact"><a href="./contact.html">CONTACT</a></p>
+        </div>
+    </div>
+    <!---------------sidenavbar------------------------->
+
+    <!-- ----------------firstContent------------------------>
+    <div class="collectionfirst">
+        <div>
+            <h1>EXPLPORE OUR COLLECTION </h1>
+            <p>lets begin the fashion to the new world</p>
+        </div>
+        <div class="collectionfirstinput">
+                <i class="fa-solid fa-search"></i> <input type="text" placeholder="search here ...." id="collectionsearch" onkeyup="searchvalue()"> 
+        </div>
+    </div>
+    <!--****************third content*******************-->
+    <h2 class="third-cont-head">
+        NEW ARRIVALS....
+    </h2>
+    <div class="thirdcontent">
+        <div class="third-sub">
+            <img src="./imgs/third-1.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>white T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-2.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>white T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-6.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>white T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-5.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>white T shirt</p>
+        </div>
+    </div>
+    <!--****************third content*******************-->
+    <h2 class="third-cont-head">
+        MOST WANTED....
+    </h2>
+    <div class="thirdcontent">
+        <div class="third-sub">
+            <img src="./imgs/third-2.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>yellow T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-3.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>yellow T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-1.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>yellow T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-4.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>yellow T shirt</p>
+        </div>
+    </div>
+    <!--****************third content*******************-->
+    <h2 class="third-cont-head">
+        FASHION TO THE TOP....
+    </h2>
+    <div class="thirdcontent">
+        <div class="third-sub">
+            <img src="./imgs/third-3.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>blue T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-2.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>blue T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-1.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>blue T shirt</p>
+        </div>
+        <div class="third-sub">
+            <img src="./imgs/third-6.jpeg" alt="IMAGES OF  PRODUCTS" width="250px" height="180px">
+            <button class="third-cont-btn">SHOP NOW <i class="fa-solid fa-arrow-right "></i> </button>
+            <p>blue T shirt</p>
+        </div>
+    </div>
+
+    <!--***********************************fourth content********************-->
+    <div class="fourthcontent">
+        <h2>TO JOIN OUR COMMUNITY...</h2>
+        <p>Enter your E-mail to join our community and get the exclusive update </p>
+        <p><input type="email"></p>
+        <button>SUBSCRIBE <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <!------------------------------------footer content-------------------->
+    <div class="footercontent">
+        <h1>ONLINESHOPPING-CART</h1>
+        <H4>The Product you use the profit we make and the satisfaction you gain</H4>
+        <i class="fa-brands fa-facebook" style="color: red;"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i> <br>
+        <i class="fa-duotone fa-hashtag">ONLINESHOPPING-CART</i>
+        <hr>
+        <p>@2024 ONLINESHOPPING-CART</p>
+    </div>
+
+</body>
+
+</html>

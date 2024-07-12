@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-width: 320px;
+}
+
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.nav-option {
+    display: flex;
+    column-gap: 10px;
+}
+
+.nav-title p {
+    font-size: 25px;
+}
+
+.nav-option a {
+    text-decoration: none;
+    color: rgb(2, 3, 20);
+}
+
+.nav-option a:hover {
+    text-decoration: underline;
+}
+
+.font-icon {
+    display: none;
+    font-size: 20px;
+}
+
+/*---------------- first content-----------------*/
+div.firstcontent {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.shopnow {
+    padding: 10px;
+    border: none;
+    background-color: #0f0e14;
+    color: aliceblue;
+}
+
+/*------------firsthalfcontent---------------*/
+.firsthalfcontent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/*-------------------------second content----------------*/
+div.secondcontent {
+    display: flex;
+}
+
+.sec-con-option {
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+/*-------------third-content-----------------------------*/
+.third-cont-head {
+    margin-top: 20PX;
+    margin-bottom: 20px;
+    padding-left: 20PX;
+}
+
+.thirdcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.third-sub {
+    position: relative;
+}
+.third-subzero{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: justify;
+}
+.two{
+    flex-direction: row-reverse;
+}
+.third-sub img{
+    border-radius: 4px;
+}
+.third-subone {
+    padding: 20px;
+    text-align: justify;
+}
+.third-subone img{
+    padding-left: 40px;
+}
+.third-cont-btn {
+    padding: 10px;
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    border: none;
+    border-radius: 3px;
+}
+
+.third-cont-btn:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+/*--------------------------fourth-content------------------*/
+.fourthcontent{
+    text-align: center;
+}
+.fourthcontent input{
+    padding: 10px;
+    width: 70%;
+    border: 3.5px solid black;
+   
+}
+.fourthcontent button{
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    background-color: #0f0e14;
+    color: white; 
+    border-radius: 4px;
+}
+/*----------------footer conten-------------------*/
+.footercontent{
+    background-color: #0f0e14;
+    padding: 35px;
+    color:whitesmoke;
+}
+
+.fourthcontent button:hover{
+    background-color: gray;
+    color:whitesmoke;
+}
+/********************media quires****------*****************/
+
+@media screen and (max-width :600px) {
+    .font-icon {
+        display: block;
+    }
+
+    .nav-option {
+        display: none;
+    }
+
+    .firstcontentimage {
+        display: none;
+    }
+
+    .secondcontent {
+        flex-direction: column;
+    }
+
+    .firsthalfcontent {
+        flex-direction: column;
+    }
+    .third-subzero{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .nav-title p {
+        font-size: 15px;
+    }
+}
+
+/*------image display none ------------------*/
+@media screen and (max-width :890px) {
+    div.firstcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*--------------------display third content image ------------*/
+
+
+/*-------------side-nav bar style-------------------*/
+.side-navbar {
+    top: 0;
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    background-color: #060420;
+    color: antiquewhite;
+    padding: 10px;
+    left: -50%;
+    transition: 1.5s;
+    z-index: 2;
+}
+
+.side-nav-option a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.side-nav-option a:hover {
+    text-decoration: underline;
+}
+
+.side-navbar p {
+    margin-bottom: 10px;
+}
+/*------------------------contact-us-------------------*/
